@@ -15,6 +15,7 @@ passport.deserializeUser((id, done) => {
   });
 });
 
+console.log('coming here');
 console.log(keys.googleClientID);
 console.log(keys.googleClientSecret);
 
